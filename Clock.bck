@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP65251
+F https://pl.mouser.com/datasheet/2/115/AP65251-1224769.pdf
+$ENDCMP
+#
+$CMP CD40109BPWR
+F http://www.ti.com/lit/ds/symlink/cd40109b.pdf
+$ENDCMP
+#
+$CMP HV5622PJ-G
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005854A.pdf
+$ENDCMP
+#
+$CMP PHB33NQ20T,118
+F https://pl.mouser.com/datasheet/2/916/PHB33NQ20T-1320411.pdf
+$ENDCMP
+#
+$CMP PJ-070BH-SMT-TR
+D DC power connector
+F http://www.cui.com/product/resource/digikeypdf/pj-070bh-smt-tr.pdf
+$ENDCMP
+#
+$CMP PJ-079BH
+D DC Power Connectors power jack, 2.5 x 5.8 mm, horizontal, through hole, high current, w/ shielding,1 switch
+F http://www.mouser.com/datasheet/2/670/pj-079bh-1517209.pdf
+$ENDCMP
+#
+$CMP WeMos_mini
+D WeMos D1 mini
+K esp8266, wemos
+F http://www.wemos.cc/Products/d1_mini.html
+$ENDCMP
+#
+#End Doc Library
