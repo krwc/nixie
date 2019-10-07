@@ -1,0 +1,57 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/mk/dev/PCB/Nixie/Clock/NixieClock.sch</h1>
+    <p>Thu 29 Aug 2019 09:48:54 PM CEST</p>
+    <p>Eeschema 5.1.4</p>
+    <p><b>Component Count:</b>53</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1</td><td>1</td><td>330u</td><td>Device:C_Small</td><td>Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C2</td><td>1</td><td>3.3u</td><td>Device:C_Small</td><td>Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C3</td><td>1</td><td>470p</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C4</td><td>1</td><td>100n</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C5</td><td>1</td><td>10u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C6, C7</td><td>2</td><td>22u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C9</td><td>1</td><td>1u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>BAV21</td><td>Diode:BAV21</td><td>Diode_SMD:D_SOD-323_HandSoldering</td><td>200V 0.25A Small Signal Switching Diode, High Voltage, DO-35</td><td></td></tr>
+    <tr><td>D2</td><td>1</td><td>1N914</td><td>Diode:1N914</td><td>Diode_SMD:D_SOD-323_HandSoldering</td><td>100V 0.3A Small Signal Fast Switching Diode, DO-35</td><td></td></tr>
+    <tr><td>D3, D4</td><td>2</td><td>LED</td><td>Device:LED</td><td>LED_THT:LED_D5.0mm_Clear</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D5</td><td>1</td><td>B140HW</td><td>Device:D_Schottky</td><td>Diode_SMD:D_SOD-123</td><td>Schottky diode</td><td></td></tr>
+    <tr><td>D6</td><td>1</td><td>BZX84Cxx</td><td>Diode:BZX84Cxx</td><td>Diode_SMD:D_SOT-23_ANK</td><td>300mW Zener Diode, SOT-23</td><td></td></tr>
+    <tr><td>F1</td><td>1</td><td>1A fuse</td><td>Device:Fuse</td><td>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Fuse</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>PJ-079BH</td><td>Clock:PJ-079BH</td><td>PJ079BH</td><td>DC Power Connectors power jack, 2.5 x 5.8 mm, horizontal, through hole, high current, w/ shielding,1 switch</td><td></td></tr>
+    <tr><td>J2, J3, J4</td><td>3</td><td>Conn_02x10_Top_Bottom</td><td>Connector_Generic:Conn_02x10_Top_Bottom</td><td>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</td><td>Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5, J6, J7</td><td>3</td><td>Conn_02x10_Odd_Even</td><td>Connector_Generic:Conn_02x10_Odd_Even</td><td>Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal</td><td>Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>L1</td><td>1</td><td>100u</td><td>Device:L_Small</td><td>Inductor_SMD:L_Bourns_SRR1210A</td><td>Inductor, small symbol</td><td></td></tr>
+    <tr><td>L2</td><td>1</td><td>3.6u</td><td>Device:L_Small</td><td>Clock:SRN5040</td><td>Inductor, small symbol</td><td></td></tr>
+    <tr><td>N1, N2, N3, N4</td><td>4</td><td>IN-12A_B</td><td>Clock:IN-12A_B</td><td>Clock:IN12-A_B</td><td></td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>2N2907</td><td>Device:Q_PNP_BEC</td><td>Package_TO_SOT_SMD:SOT-23_Handsoldering</td><td>PNP transistor, base/emitter/collector</td><td></td></tr>
+    <tr><td>Q2, Q5</td><td>2</td><td>SI2343DS</td><td>Clock:SI2333DDS-T1-GE3</td><td>Package_TO_SOT_SMD:SOT-23_Handsoldering</td><td></td><td></td></tr>
+    <tr><td>Q3</td><td>1</td><td>T2N7002AK</td><td>Device:Q_NMOS_GSD</td><td>Package_TO_SOT_SMD:SOT-23_Handsoldering</td><td>N-MOSFET transistor, gate/source/drain</td><td></td></tr>
+    <tr><td>Q4</td><td>1</td><td>2N3906</td><td>Device:Q_PNP_BEC</td><td>Package_TO_SOT_SMD:SOT-23_Handsoldering</td><td>PNP transistor, base/emitter/collector</td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>0.22</td><td>Device:R_Small</td><td>Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R2</td><td>1</td><td>475k</td><td>Device:R_Small</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R3</td><td>1</td><td>3.5k</td><td>Device:R_Small</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R4</td><td>1</td><td>1k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R7</td><td>1</td><td>2k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R8, R9, R10, R11</td><td>4</td><td>33.2k</td><td>Device:R_Small</td><td>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R12</td><td>1</td><td>22</td><td>Device:R_Small</td><td>Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R13, R15</td><td>2</td><td>10k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R14</td><td>1</td><td>499k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>MC33063AD</td><td>Regulator_Switching:MC33063AD</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</td><td></td></tr>
+    <tr><td>U2, U3</td><td>2</td><td>HV5622PJ-G</td><td>Clock:HV5622PJ-G</td><td>Package_LCC:PLCC-44</td><td></td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>PHB33NQ20T,118</td><td>Clock:PHB33NQ20T,118</td><td>Package_TO_SOT_SMD:TO-263-3_TabPin2</td><td></td><td></td></tr>
+    <tr><td>U5</td><td>1</td><td>AP63203</td><td>Clock:AP63203</td><td>Package_TO_SOT_SMD:TSOT-23-6</td><td>3.3V buck converter</td><td></td></tr>
+    <tr><td>U6</td><td>1</td><td>CD40109BPWR</td><td>Clock:CD40109BPWR</td><td>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</td><td></td><td></td></tr>
+    <tr><td>U7</td><td>1</td><td>WeMos_mini</td><td>Clock:WeMos_mini</td><td>Clock:wemos-d1-mini-connectors-only</td><td>WeMos D1 mini</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

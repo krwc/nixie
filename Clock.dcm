@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP63203
+D 3.3V buck converter
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
 $CMP AP65251
 F https://pl.mouser.com/datasheet/2/115/AP65251-1224769.pdf
 $ENDCMP
