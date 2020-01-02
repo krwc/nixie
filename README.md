@@ -4,8 +4,8 @@ When my journey into the world of electronics started, a friend of mine has show
 beautiful creations capable of presenting time using cold cathode tubes. Ever since then,
 I wanted to create something similar, as it seemed like a pretty cool thing to do!
 
-After some time, and two PCB revisions, the clock was actually useful, weren't exploding,
-and were looking quite neat to me.
+After some time, and two PCB revisions, the clock was actually useful, wasn't exploding,
+and was looking quite neat overall to me.
 
 ![Photo](https://github.com/sznaider/nixie/blob/master/photo.jpg)
 ![PCB](https://github.com/sznaider/nixie/blob/master/pcb.png)
