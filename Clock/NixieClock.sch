@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:NixieClock-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1379,17 +1378,6 @@ Wire Wire Line
 	-650 1250 -650 825 
 Wire Wire Line
 	-650 825  -1075 825 
-$Comp
-L power:GND #PWR0101
-U 1 1 5D698A9B
-P -2025 2550
-F 0 "#PWR0101" H -2025 2300 50  0001 C CNN
-F 1 "GND" H -2020 2377 50  0000 C CNN
-F 2 "" H -2025 2550 50  0001 C CNN
-F 3 "" H -2025 2550 50  0001 C CNN
-	1    -2025 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-1650 1550 -1650 1250
 Connection ~ -1650 1250
@@ -1433,21 +1421,10 @@ Wire Wire Line
 Connection ~ -1150 1550
 Wire Wire Line
 	-1500 1975 -1650 1975
-Wire Wire Line
-	-1200 2225 -1200 2150
 Connection ~ -1200 1975
 Wire Wire Line
 	-1200 1975 -1075 1975
-Wire Wire Line
-	-2325 2350 -2325 1975
 Connection ~ -1650 1975
-Wire Wire Line
-	-2325 1975 -1650 1975
-Wire Wire Line
-	-2025 2150 -1200 2150
-Connection ~ -1200 2150
-Wire Wire Line
-	-1200 2150 -1200 1975
 $Comp
 L power:GND #PWR0102
 U 1 1 5D714B84
@@ -1475,13 +1452,7 @@ $EndComp
 Wire Wire Line
 	-775 2175 -775 2550
 Wire Notes Line
-	-1775 1875 -2400 1875
-Wire Notes Line
-	-2400 1875 -2400 2850
-Wire Notes Line
 	-100 2850 -100 525 
-Wire Notes Line
-	-1775 525  -1775 1875
 Text Notes -1000 650  0    50   ~ 0
 Soft start
 $Comp
@@ -1500,8 +1471,6 @@ Wire Wire Line
 Connection ~ -650 825 
 Wire Notes Line
 	-1775 525  -100 525 
-Wire Notes Line
-	-2400 2850 -100 2850
 $Comp
 L Device:Fuse F1
 U 1 1 5D7E27B4
@@ -1542,33 +1511,14 @@ $EndComp
 $Comp
 L Device:R_Small R15
 U 1 1 5D83C7C9
-P -1525 2350
-F 0 "R15" H -1450 2400 50  0000 L CNN
-F 1 "10k" H -1450 2300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H -1525 2350 50  0001 C CNN
-F 3 "~" H -1525 2350 50  0001 C CNN
-	1    -1525 2350
+P -1650 2350
+F 0 "R15" H -1575 2400 50  0000 L CNN
+F 1 "10k" H -1575 2300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H -1650 2350 50  0001 C CNN
+F 3 "~" H -1650 2350 50  0001 C CNN
+	1    -1650 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	-1650 1975 -1650 2100
-Wire Wire Line
-	-1650 2100 -1525 2100
-Wire Wire Line
-	-1525 2100 -1525 2250
-$Comp
-L power:GND #PWR0104
-U 1 1 5D8454C0
-P -1525 2550
-F 0 "#PWR0104" H -1525 2300 50  0001 C CNN
-F 1 "GND" H -1520 2377 50  0000 C CNN
-F 2 "" H -1525 2550 50  0001 C CNN
-F 3 "" H -1525 2550 50  0001 C CNN
-	1    -1525 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-1525 2450 -1525 2550
 Wire Wire Line
 	3900 1975 3900 2575
 $Comp
@@ -1679,17 +1629,6 @@ Text GLabel 8000 3800 0    50   UnSpc ~ 0
 Text GLabel 8000 4200 0    50   UnSpc ~ 0
 +12V
 $Comp
-L Device:Q_PNP_BEC Q4
-U 1 1 5D935C20
-P -2125 2350
-F 0 "Q4" H -1935 2304 50  0000 L CNN
-F 1 "2N3906" H -1935 2395 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H -1925 2450 50  0001 C CNN
-F 3 "~" H -2125 2350 50  0001 C CNN
-	1    -2125 2350
-	1    0    0    1   
-$EndComp
-$Comp
 L Diode:BZX84Cxx D6
 U 1 1 5D984DE8
 P 2950 4800
@@ -1742,4 +1681,25 @@ Wire Wire Line
 	3750 825  3900 825 
 Text GLabel 3550 1125 3    50   Input ~ 0
 T_ON
+Wire Wire Line
+	-1200 1975 -1200 2225
+$Comp
+L power:GND #PWR?
+U 1 1 5E0ED859
+P -1650 2550
+F 0 "#PWR?" H -1650 2300 50  0001 C CNN
+F 1 "GND" H -1645 2377 50  0000 C CNN
+F 2 "" H -1650 2550 50  0001 C CNN
+F 3 "" H -1650 2550 50  0001 C CNN
+	1    -1650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1650 1975 -1650 2250
+Wire Wire Line
+	-1650 2550 -1650 2450
+Wire Notes Line
+	-1775 2850 -100 2850
+Wire Notes Line
+	-1775 525  -1775 2850
 $EndSCHEMATC
