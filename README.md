@@ -7,9 +7,8 @@ I wanted to create something similar, as it seemed like a pretty cool thing to d
 After some time, and two PCB revisions, the clock was actually useful, weren't exploding,
 and were looking quite neat to me.
 
-![Photo](https://github.com/mkrawiec/nixie/blob/master/photo.jpg)
-
-![PCB](https://github.com/mkrawiec/nixie/blob/master/pcb.png)
+![Photo](https://github.com/sznaider/nixie/blob/master/photo.jpg)
+![PCB](https://github.com/sznaider/nixie/blob/master/pcb.png)
 
 # Safety
 
